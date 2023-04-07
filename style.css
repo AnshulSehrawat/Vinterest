@@ -1,0 +1,17 @@
+body
+{
+  background-color : #212121
+}
+
+.logo {
+  border-radius: 50%;
+  height: 4%;
+  margin-right: 2%;
+  width: 4%;
+}
+
+.navigation-bar
+{
+  background-color : white;
+  height : 30px;
+}
