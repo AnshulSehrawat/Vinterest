@@ -2,11 +2,91 @@
 {
   background-color: white;
   height : 10%;
+  padding : 2% 3%;
+
+}
+.logo-container
+{
+  display : inline-block;
+}
+.logo
+{
+  vertical-align: middle;
+}
+.Brand-text-container
+{
+  display : inline-block;
+  margin-left : 1%;
+  vertical-align: middle;
+}
+.Brand-text
+{
+  color : BLACK;
+  font-weight : bold;
+  font-family: Rakkas cursive;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.All-Navlink-container
+{
+  display : inline-block;
+  float : right;
+  vertical-align: middle;
+  margin-top: 0.19rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 2%;
+}
+.Navlink-container
+{
+  display : inline-block;
+  vertical-align: middle;
+  margin-left: 25px;
+}
+.Navlink
+{
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.Li
+{
+  background-color: black;
+  padding: 14px 25px;
+}
+
+#Login
+{
+  color: white;
+  background-color: black;
+  border-radius: 60px;
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+
+#Login:hover
+{
+  background-color: #333333;
 }
 
 .top-section
 {
-  background-color : black;
+  background-color : white;
+}
+
+.Main-text
+{
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color : black;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 8%;
 }
 
 .section-1
