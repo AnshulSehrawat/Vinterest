@@ -1,17 +1,30 @@
-body
+.navigation
 {
-  background-color : #212121
+  background-color: white;
+  height : 10%;
 }
 
-.logo {
-  border-radius: 50%;
-  height: 4%;
-  margin-right: 2%;
-  width: 4%;
+.top-section
+{
+  background-color : black;
 }
 
-.navigation-bar
+.section-1
 {
-  background-color : white;
-  height : 30px;
+  background-color : red;
+}
+
+.section-2
+{
+  background-color: white;
+}
+
+.section-3
+{
+  background-color: red;
+}
+
+.sign-in-section
+{
+  background-color : black;
 }
