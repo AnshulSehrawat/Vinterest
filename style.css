@@ -113,52 +113,6 @@ body
   margin : 0% auto 0% auto;
 }
 
-.section-1
-{
-  background-color: rgb(255, 255, 157);
-  box-sizing: border-box;
-  display: inline-block;
-  height: 100vh;
-  width:100vw;
-}
-#sec-1_content{
-  color: rgb(195, 47, 0);
-  text-align: center;
-  vertical-align: middle;
-}
-#sec-1_heading{
-  position: relative;
-  padding-top: 15rem;
-  margin: auto;
-  font-size:50px;
-  width: 40rem;
-  vertical-align: middle;
-}
-#sec-1_para{
-  position: relative;
-  margin:  1rem auto;
-  font-size:30px;
-  width: 30rem;
-  vertical-align: middle;
-}
-#sec-1_button{
-  position: relative;
-  margin: 1rem auto;
-  background-color: rgb(195, 47, 0);
-  color: white;
-  font-size: 30px;
-  border-radius: 50px;
-  height:3rem;
-  width:8rem;
-  padding-top:0.8rem;
-  cursor:default;
-}
-#sec-1_button:hover{
-  opacity: 0.8;
-}
-
-
-/*------ SECTION 2 --------*/
 .Sub-text
 {
   font-size : 2.2rem;
@@ -260,6 +214,52 @@ body
   width : 100vw;
 }*/
 
+/*------ SECTION 1 --------*/
+.section-1
+{
+  background-color: rgb(255, 255, 157);
+  box-sizing: border-box;
+  display: inline-block;
+  height: 100vh;
+  width:100vw;
+}
+#sec-1_content{
+  color: rgb(195, 47, 0);
+  text-align: center;
+  vertical-align: middle;
+}
+#sec-1_heading{
+  position: relative;
+  padding-top: 15rem;
+  margin: auto;
+  font-size:50px;
+  width: 40rem;
+  vertical-align: middle;
+}
+#sec-1_para{
+  position: relative;
+  margin:  1rem auto;
+  font-size:30px;
+  width: 30rem;
+  vertical-align: middle;
+}
+#sec-1_button{
+  position: relative;
+  margin: 1rem auto;
+  background-color: rgb(195, 47, 0);
+  color: white;
+  font-size: 30px;
+  border-radius: 50px;
+  height:3rem;
+  width:8rem;
+  padding-top:0.8rem;
+  cursor:default;
+}
+#sec-1_button:hover{
+  opacity: 0.8;
+}
+
+
 /* -------- SECTION-2 -------*/
 .section-2 {
   background-color: rgb(195, 240, 255);
@@ -305,7 +305,7 @@ body
 }
 #sec-2_button:hover{
   opacity: 0.8;
-
+}
 
 /* -------- SECTION 3 -------*/
 .section-3 {
