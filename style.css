@@ -300,6 +300,19 @@ body
   z-index: 6;
   text-align: center;
 }
+
+.inspiration-search-button > p:hover
+{
+  opacity: 0.6;
+}
+
+.Search-button
+{
+  display : inline-block;
+  position : absolute;
+  left  : 7%;
+  bottom : 26%;
+}
 #coffee-1
 {
   z-index : 5;
