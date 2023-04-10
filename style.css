@@ -99,7 +99,6 @@ body
 /*------------TOP SECTION---------*/
 .top-section {
   background-color: white;
-  overflow: hidden;
 }
 
 .Main-text {
@@ -109,7 +108,7 @@ body
   color: black;
   text-align: center;
   vertical-align: middle;
-  padding-top: 10%;
+  padding-top: 5%;
   width : 30%;
   margin : 0% auto 0% auto;
 }
@@ -145,58 +144,11 @@ body
   border-radius: 1.2rem;
   background: #DCDCDC;
 }
-
-#left-image-coding
+/*.Coding-2x
 {
-  height : 53rem;
-  position : relative;
-  z-index: 1;
-  bottom : 0rem;
-  right : 3rem;
-}
-
-#left-top-image-coding
-{
-  background-image: url("Code1.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#left-bottom-image-coding
-{
-  background-image: url("Code7.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position : absolute;
-  z-index: 2;
-  bottom : 0;
-}
-
-#right-image-coding
-{
-  position : relative;
-  bottom : 0rem;
-  left : 3rem;
-  height : 53rem;
-  z-index : 1;
-}
-
-#right-top-image-coding
-{
-  background-image: url("Code8.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#right-bottom-image-coding
-{
-  background-image: url("Code9.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position : absolute;
-  z-index : 2;
-  bottom : 0;
-}
+  display : inline-block;
+  width : 6.5rem;
+}*/
 
 .Coding-container
 {
@@ -209,17 +161,16 @@ body
 {
   display : inline-block;
   height : 25rem;
-  width : 12rem;
-  margin : 2% 0.7% 0% 0.7%;
+  width : 13rem;
+  margin : 2% 0.5% 0% 0.5%;
   border-radius: 1.5rem;
   aspect-ratio : 9 / 16;
-  position : relative;
 }
 
 #Coding-img-2
 {
   margin-bottom: 10%;
-  background-image: url("Code2.jpeg");
+  background-image: url("Code1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -227,7 +178,7 @@ body
 #Coding-img-3
 {
   margin-bottom: 4%;
-  background-image: url("Code3.jpeg");
+  background-image: url("Code2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -235,7 +186,7 @@ body
 #Coding-img-4
 {
   margin-bottom: 1%;
-  background-image: url("Code4.jpeg");
+  background-image: url("Code3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -243,7 +194,7 @@ body
 #Coding-img-5
 {
   margin-bottom: 4%;
-  background-image: url("Code5.jpeg");
+  background-image: url("Code4.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -251,7 +202,7 @@ body
 #Coding-img-6
 {
   margin-bottom: 10%;
-  background-image: url("Code6.jpeg");
+  background-image: url("Code5.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -266,146 +217,42 @@ body
 /*------ SECTION 1 --------*/
 .section-1
 {
-  background-color: #F4EEE0;
-  position : absolute;
-  z-index : 2;
+  background-color: rgb(255, 255, 157);
+  box-sizing: border-box;
+  display: inline-block;
   height: 100vh;
   width:100vw;
 }
-
-.coffee-img
-{
-  position : absolute;
-}
-
-.inspiration-search-button > p
-{
-  font-family: sans-serif;
-  color : #4F4557;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-top: 1.3rem;
-  margin-left: 3.2rem;
-}
-
-.inspiration-search-button
-{
-  position : absolute;
-  background-color: white;
-  height : 5rem;
-  width : 18rem;
-  left : 11%;
-  bottom : 43%;
-  border-radius: 3rem;
-  z-index: 6;
-  text-align: center;
-}
-
-.inspiration-search-button > p:hover
-{
-  opacity: 0.6;
-}
-
-.Search-button
-{
-  display : inline-block;
-  position : absolute;
-  left  : 7%;
-  bottom : 26%;
-}
-#coffee-1
-{
-  z-index : 5;
-  background-image: url("Section1-img-1.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display : inline-block;
-  height : 27rem;
-  width : 20rem;
-  border-radius: 1.5rem;
-  aspect-ratio : 9 / 16;
-  left : 15%;
-  bottom : 23%;
-}
-
-#coffee-2
-{
-  background-image: url("Section1-img-3.jpeg");
-  background-repeat: no-repeat;
-  background-size: 65%;
-  background-position: left;
-  display : inline-block;
-  height : 19rem;
-  width : 20rem;
-  border-radius: 1.5rem;
-  left : 7%;
-  bottom : 31%;
-  z-index : 4;
-}
-
-#coffee-3
-{
-  background-image: url("Section1-img-2.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display : inline-block;
-  height : 12rem;
-  width : 12rem;
-  border-radius: 1.5rem;
-  left : 33%;
-  bottom : 66%;
-  z-index : 4;
-}
-
-#coffee-4
-{
-  background-image: url("Section1-img-4.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display : inline-block;
-  height : 20rem;
-  width : 14rem;
-  border-radius: 1.5rem;
-  left : 34.5%;
-  bottom : 10%;
-  z-index : 4;
-}
-
 #sec-1_content{
-  color: #4F4557;
+  color: rgb(195, 47, 0);
   text-align: center;
   vertical-align: middle;
 }
-#sec-1_heading
-{
-  font-family: sans-serif;
-  font-weight: bold;
+#sec-1_heading{
   position: relative;
   padding-top: 15rem;
   margin: auto;
-  font-size: 2.5rem;
+  font-size:50px;
   width: 40rem;
   vertical-align: middle;
 }
 #sec-1_para{
   position: relative;
   margin:  1rem auto;
-  font-family: sans-serif;
   font-size:30px;
   width: 30rem;
   vertical-align: middle;
 }
 #sec-1_button{
   position: relative;
-  margin: 1.6rem auto;
-  background-color: #4F4557;
-  color: #F4EEE0;
-  font-family: sans-serif;
-  font-size: 1.5rem;
+  margin: 1rem auto;
+  background-color: rgb(195, 47, 0);
+  color: white;
+  font-size: 30px;
   border-radius: 50px;
   height:3rem;
   width:8rem;
-  padding-top:1.2rem;
+  padding-top:0.8rem;
   cursor:default;
 }
 #sec-1_button:hover{
@@ -434,7 +281,6 @@ body
   font-size:50px;
   width: 40rem;
   vertical-align: middle;
-  font-family: sans-serif;
 }
 
 #sec-2_para {
@@ -443,7 +289,6 @@ body
   font-size: 30px;
   width: 30rem;
   vertical-align: middle;
-  font-family: sans-serif;
 }
 
 #sec-2_button {
@@ -451,7 +296,6 @@ body
   margin: 1rem auto;
   background-color: rgb(25, 80, 112);
   color: white;
-  font-family: sans-serif;
   font-size: 30px;
   border-radius: 50px;
   height:3rem;
@@ -472,9 +316,9 @@ body
   width:100vw;
 }
 #sec-3_img{
-  background-image: url("Section-3-img1.jpg");
+  background-image: url("logo.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #sec-3_content {
@@ -488,15 +332,11 @@ body
   padding-top: 15rem;
   margin: auto;
   font-size: 50px;
-  font-family: sans-serif;
-  font-weight: bold;
   width: 30rem;
   vertical-align: middle;
 }
 
 #sec-3_para {
-  font-family: sans-serif;
-  font-weight: bold;
   position: relative;
   margin: 1rem auto;
   font-size: 30px;
@@ -505,8 +345,6 @@ body
 }
 
 #sec-3_button {
-  font-family: sans-serif;
-  font-weight: bold;
   position: relative;
   margin: 1rem auto;
   background-color: rgb(195, 47, 0);
