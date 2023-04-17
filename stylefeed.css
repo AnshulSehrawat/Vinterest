@@ -1,0 +1,199 @@
+.body
+{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.navigation
+{
+  position : sticky;
+  width : 100%;
+  background-color: white;
+  top : 0;
+}
+
+.nav-container
+{
+  padding : 0 20px;
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-element
+{
+  margin : 10px;
+}
+
+.nav-button
+{
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  padding : inherit;
+}
+
+.logo-container
+{
+  margin : 0;
+  padding : 0;
+  display : flex;
+}
+.logo
+{
+  height : 3rem;
+  vertical-align: middle;
+}
+.home-button-container
+{
+  margin-left: 2%;
+}
+.Home
+{
+  background-color: black;
+  color : white;
+  border-radius: 2.6rem;
+  border : none;
+  font-size : 1.3rem;
+  padding : 13px;
+}
+.Home:hover
+{
+  opacity : 0.8;
+}
+.Today
+{
+  background-color: white;
+  color : black;
+  border : none;
+  border-radius: 2.6rem;
+  font-size : 1.3rem;
+  padding : 13px;
+}
+.Create-button
+{
+  text-decoration: none;
+  color : black;
+  font-family: sans-serif;
+  font-size : 1.3rem;
+  display : inline-block;
+}
+.Create-icon
+{
+  display : inline-block;
+  height : 1rem;
+}
+.search-bar-container
+{
+  flex-grow: 1;
+  background-color: lightgrey;
+  border-radius: 4rem;
+  display : flex;
+  align-items: center;
+}
+.Search-icon
+{
+    display : inline-block;
+    width : 1rem;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+.Search-box
+{
+  height : 2.5rem;
+  font-size : 1.3rem;
+  color : grey;
+  background-color: lightgrey;
+  border: none;
+  margin-left: 8px;
+}
+.search-bar-container:hover
+{
+  opacity : 0.9;
+}
+
+.notification-icon
+{
+  height : 2rem;
+}
+.Notification-button:hover
+{
+  background-color: lightgrey;
+}
+.chat-icon
+{
+  height : 2rem;
+}
+.chat-button:hover
+{
+  background-color : lightgrey;
+}
+.profile-icon
+{
+  height : 2rem;
+}
+.profile-button:hover
+{
+  background-color : lightgrey;
+}
+.more-options-button-container
+{
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.More-options-button
+{
+  background-color : white;
+  height : 3rem;
+  width : 3rem;
+}
+.More-options-button:hover
+{
+  background-color: lightgrey;
+}
+.down-arrow-icon
+{
+  display : inline-block;
+  height : 1rem;
+  vertical-align: middle;
+}
+.home-feed-container
+{
+  height : 10000px;
+  background-color : white;
+  display : flex;
+  width : 100%;
+}
+.feed
+{
+  height : 100vh;
+  width : 100%;
+  display : flex;
+  justify-content: flex-start;
+  align-items : center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.feed-post-container
+{
+  width : 8%;
+}
+
+.feed-post
+{
+  border : 0;
+  height : auto;
+  max-width : 100%;
+  border-radius: 1rem;
+}
+.feed-post:hover
+{
+  filter: brightness(0.5);
+}
